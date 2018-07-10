@@ -12,7 +12,7 @@
         <div id="mainHeader" class="pt-4 pb-4">
             <div class="row">
                 <div class="col">
-                    <img src="/vendor/horizon/img/horizon.svg">
+                    <img src="/public/img/logo_full.png" width="200">
                 </div>
             </div>
         </div>
@@ -30,8 +30,7 @@
         </main>
 
         <footer id="mainFooter" class="pt-4 pb-4 text-center">
-            Laravel is a trademark of Taylor Otwell. Copyright © Laravel LLC. All rights reserved.
+            Copyright © Social Seeder. All rights reserved.
         </footer>
     </div>
 </template>
-

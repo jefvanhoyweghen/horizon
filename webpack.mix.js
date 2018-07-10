@@ -26,10 +26,10 @@ mix
     .js('resources/assets/js/app.js', 'public/js')
     .sass('resources/assets/sass/app.scss', 'public/css')
     .copy('resources/assets/img', 'public/img')
-    .sourceMaps()
-    .copy('public', '../../laravelhorizon/public/vendor/horizon')
+    .sourceMaps();
+    // .copy('public', '../../laravelhorizon/public/vendor/horizon')
     // .copy('public', '../app/public/vendor/horizon')
-    .version();
+    // .version();
 
 
 mix.webpackConfig({
