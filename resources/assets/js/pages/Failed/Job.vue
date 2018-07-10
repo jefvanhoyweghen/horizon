@@ -127,7 +127,7 @@
                             <button @click="retry(job.id)" class="btn btn-primary btn-sm">
                                 <i class="icon-sm">
                                     <svg class="fill-white" :class="{spin: retryingJob}">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#zondicon-refresh"></use>
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/public/img/sprite.svg#zondicon-refresh"></use>
                                     </svg>
                                 </i>
                             </button>

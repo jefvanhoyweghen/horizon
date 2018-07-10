@@ -194,7 +194,7 @@
                                 <span @click="retry(job.id)" v-if="!hasCompleted(job)">
                                     <i class="icon">
                                         <svg class="fill-primary" :class="{spin: isRetrying(job.id)}">
-                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#zondicon-refresh"></use>
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/public/img/sprite.svg#zondicon-refresh"></use>
                                         </svg>
                                     </i>
                                 </span>
